@@ -9,6 +9,7 @@ Welcome to the Search Algorithm Visualizer, a React Vite app designed to help yo
 - Responsive and stylish UI powered by ShadeCN and Tailwind CSS.
 
 ## Online Demo
+
 - https://search-algorithms-visualizer.leulabay.me
 
 ## Installation
