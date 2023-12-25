@@ -1,35 +1,90 @@
-<<<<<<< HEAD
-# search-algorithms-visualizer
-A web app designed to visualize search algorithms
-=======
-# React + TypeScript + Vite
+# Search Algorithms Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Search Algorithm Visualizer, a React Vite app designed to help you visualize and understand two popular search algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS). The user interface is built using ShadeCN for styling and Tailwind CSS for utility-first styling. The project directory is organized with a 'src' folder containing 'components' and 'hooks' as subfolders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualize Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.
+- Understand algorithmic concepts through interactive visualization.
+- Responsive and stylish UI powered by ShadeCN and Tailwind CSS.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Make sure you have Node.js and npm installed. Then, follow these steps to set up the project:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+   ```bash
+   git clone https://github.com/your-username/search-algorithm-visualizer.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd search-algorithm-visualizer
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server and run the app locally, use the following command:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
->>>>>>> a6eff15 (update: deploy version)
+Visit [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
+
+## Project Structure
+
+```
+search-algorithm-visualizer/
+|-- src/
+|   |-- components/        # React components
+|   |   |-- AlgorithmVisualizer.jsx  # Main visualization component
+|   |   |-- ...                      # Other components
+|   |-- hooks/             # Custom React hooks
+|   |   |-- useBFS.js      # Hook for Breadth-First Search
+|   |   |-- useDFS.js      # Hook for Depth-First Search
+|   |-- App.jsx            # Main application component
+|   |-- index.jsx          # Entry point
+|-- public/
+|-- node_modules/
+|-- .gitignore
+|-- package.json
+|-- README.md
+|-- ...                   # Other configuration files
+```
+
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [ShadeCN](https://shadecss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Special thanks to the developers of React, Vite, ShadeCN, and Tailwind CSS.
+- Inspired by the desire to make algorithms more accessible and understandable through visualization.
+  
+Happy coding! 🚀
