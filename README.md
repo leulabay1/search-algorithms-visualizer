@@ -15,7 +15,7 @@ Make sure you have Node.js and npm installed. Then, follow these steps to set up
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/search-algorithm-visualizer.git
+   git clone https://github.com/leulabay1/search-algorithms-visualizer.git
    ```
 
 2. Navigate to the project directory:
