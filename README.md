@@ -8,6 +8,9 @@ Welcome to the Search Algorithm Visualizer, a React Vite app designed to help yo
 - Understand algorithmic concepts through interactive visualization.
 - Responsive and stylish UI powered by ShadeCN and Tailwind CSS.
 
+## Online Demo
+- https://search-algorithms-visualizer.leulabay.me
+
 ## Installation
 
 Make sure you have Node.js and npm installed. Then, follow these steps to set up the project:
